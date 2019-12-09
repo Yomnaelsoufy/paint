@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+ <int>1</int>
+ <object class="eg.edu.alexu.csd.oop.draw.Circle" id="Circle0">
+  <void property="color">
+   <object class="java.awt.Color" id="Color0">
+    <int>0</int>
+    <int>255</int>
+    <int>255</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="fillColor">
+   <object idref="Color0"/>
+  </void>
+  <void id="Point0" property="position">
+   <void class="java.awt.Point" method="getField">
+    <string>x</string>
+    <void method="set">
+     <object idref="Point0"/>
+     <int>292</int>
+    </void>
+   </void>
+   <void class="java.awt.Point" method="getField">
+    <string>y</string>
+    <void method="set">
+     <object idref="Point0"/>
+     <int>266</int>
+    </void>
+   </void>
+  </void>
+  <void property="properties">
+   <void method="put">
+    <string>radius</string>
+    <double>55.0</double>
+   </void>
+  </void>
+ </object>
+</java>
